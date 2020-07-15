@@ -1,0 +1,8 @@
+prefix=/home/robotis/Tsen_ws/install
+
+Name: robotis_device
+Description: Description of robotis_device
+Version: 0.2.9
+Cflags: -I/home/robotis/Tsen_ws/install/include
+Libs: -L/home/robotis/Tsen_ws/install/lib -lrobotis_device
+Requires: roscpp dynamixel_sdk

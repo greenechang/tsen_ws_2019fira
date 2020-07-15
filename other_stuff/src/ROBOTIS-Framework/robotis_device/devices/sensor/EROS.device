@@ -1,0 +1,17 @@
+[device info]
+model_name  = EROS
+device_type = sensor
+
+[control table]
+# addr | item name                | length | access | memory |   min value   |  max value  | signed
+   0   | model_number             | 2      | R      | EEPROM | 0             | 65535       | N
+   2   | version_of_firmware      | 1      | R      | EEPROM | 0             | 254         | N
+   3   | ID                       | 1      | RW     | EEPROM | 0             | 252         | N
+   4   | baudrate                 | 1      | RW     | EEPROM | 0             | 252         | N
+   5   | return_delay_time        | 1      | RW     | EEPROM | 0             | 254         | N
+   16  | status_return_level      | 1      | RW     | EEPROM | 0             | 2           | N
+   20  | adc_mode_enabled         | 1      | RW     | EEPROM | 0             | 65535       | N
+
+   42  | present_temp             | 1      | R      | RAM    | 0             | 2127483647  | N
+   71  | uart1_use_transmit_enable| 1      | R      | RAM    | 0             | 255         | N
+   72  | uart1_protocol           | 1      | R      | RAM    | 0             | 255         | N

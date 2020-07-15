@@ -1,0 +1,6 @@
+set(op3_util_SETUP_PY_VERSION "0.0.0")
+set(op3_util_SETUP_PY_SCRIPTS "")
+set(op3_util_SETUP_PY_PACKAGES "op3_util")
+set(op3_util_SETUP_PY_PACKAGE_DIRS "src/op3_util")
+set(op3_util_SETUP_PY_MODULES "")
+set(op3_util_SETUP_PY_MODULE_DIRS "")

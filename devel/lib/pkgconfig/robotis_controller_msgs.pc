@@ -1,0 +1,8 @@
+prefix=/home/robotis/Tsen_ws/devel
+
+Name: robotis_controller_msgs
+Description: Description of robotis_controller_msgs
+Version: 0.1.4
+Cflags: -I/home/robotis/Tsen_ws/devel/include
+Libs: -L/home/robotis/Tsen_ws/devel/lib 
+Requires: std_msgs sensor_msgs message_runtime

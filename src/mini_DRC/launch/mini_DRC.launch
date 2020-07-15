@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+
+    <param name="package_name" value="mini_DRC" />
+
+    <!-- robotis op3 manager (ver. fira)-->
+    <include file="$(find op3_manager)/launch/op3_manager_DRC.launch"/>
+
+	<node pkg="mini_DRC" type="mini_DRC.py" name="mini_DRC" output="screen">
+	</node>
+
+</launch>
+

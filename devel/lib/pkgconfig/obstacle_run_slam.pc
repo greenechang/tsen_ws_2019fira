@@ -1,0 +1,8 @@
+prefix=/home/robotis/Tsen_ws/devel
+
+Name: obstacle_run_slam
+Description: Description of obstacle_run_slam
+Version: 0.0.0
+Cflags: -I/home/robotis/Tsen_ws/src/obstacle_run_slam/include
+Libs: -L/home/robotis/Tsen_ws/devel/lib 
+Requires: roscpp roslib std_msgs sensor_msgs geometry_msgs robotis_controller_msgs op3_walking_module_msgs op3_action_module_msgs cmake_modules robotis_math

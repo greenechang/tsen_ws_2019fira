@@ -1,0 +1,8 @@
+prefix=/home/robotis/Tsen_ws/install
+
+Name: test_op3_utils
+Description: Description of test_op3_utils
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/robotis/Tsen_ws/install/lib 
+Requires: 

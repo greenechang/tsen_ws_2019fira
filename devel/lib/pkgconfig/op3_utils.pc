@@ -1,0 +1,8 @@
+prefix=/home/robotis/Tsen_ws/devel
+
+Name: op3_utils
+Description: Description of op3_utils
+Version: 1.0.1
+Cflags: 
+Libs: -L/home/robotis/Tsen_ws/devel/lib 
+Requires: 

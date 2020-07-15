@@ -1,0 +1,6 @@
+set(op3_utils_SETUP_PY_VERSION "1.0.1")
+set(op3_utils_SETUP_PY_SCRIPTS "")
+set(op3_utils_SETUP_PY_PACKAGES "op3_utils;vision")
+set(op3_utils_SETUP_PY_PACKAGE_DIRS "src/op3_utils;src/vision")
+set(op3_utils_SETUP_PY_MODULES "")
+set(op3_utils_SETUP_PY_MODULE_DIRS "")

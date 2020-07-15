@@ -1,0 +1,8 @@
+prefix=/home/robotis/Tsen_ws/devel
+
+Name: op3_gripper
+Description: Description of op3_gripper
+Version: 0.0.0
+Cflags: -I/home/robotis/Tsen_ws/devel/include
+Libs: -L/home/robotis/Tsen_ws/devel/lib 
+Requires: message_runtime

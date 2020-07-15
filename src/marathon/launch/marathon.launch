@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+
+    <param name="package_name" value="marathon" />
+
+    <!-- robotis op3 manager (ver. fira)-->
+    <include file="$(find op3_manager)/launch/op3_manager_fira.launch"/>
+
+	<node pkg="marathon" type="marathon.py" name="marathon" output="screen">
+	</node>
+
+</launch>
+
